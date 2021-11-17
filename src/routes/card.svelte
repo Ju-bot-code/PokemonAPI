@@ -1,7 +1,7 @@
 
 <script>
     export let userName;
-    export let id;
+    // export let id;
     export let i;
     export let jobTitile;
     export let url;

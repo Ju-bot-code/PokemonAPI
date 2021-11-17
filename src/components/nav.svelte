@@ -7,7 +7,7 @@
 
 </nav>
 <style>
-      .text-shadow {
+      /* .text-shadow {
           text-shadow: 0 2px 4px rgb(15, 15, 15);
         }
       
@@ -21,5 +21,5 @@
       
         .text-shadow-none {
           text-shadow: none;
-        }
+        } */
 </style>

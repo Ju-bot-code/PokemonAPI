@@ -139,7 +139,7 @@ import { flip } from 'svelte/animate';
 <style>
   /* @layer components{  */
    /* @responsive {  */
-        .text-shadow {
+        /* .text-shadow {
           text-shadow: 0 5px 4px rgb(128, 123, 123);
         }
         .text-shadow-place {
@@ -156,7 +156,7 @@ import { flip } from 'svelte/animate';
       
         .text-shadow-none {
           text-shadow: none;
-        }
+        } */
        /* } 
  }  */
 </style>
