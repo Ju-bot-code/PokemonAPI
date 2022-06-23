@@ -25,6 +25,7 @@
     //    console.log(image);
 
   }
+  
 
   //multi image upload
 //   function previewImages() {
@@ -99,6 +100,7 @@
            
        
     }
+
 
  
  

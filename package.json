@@ -22,6 +22,7 @@
   },
   "type": "module",
   "dependencies": {
+    "svelte-file-dropzone": "^0.0.15",
     "svelte-generic-datepicker": "^0.0.10",
     "svelte-paginate": "^0.0.1"
   }

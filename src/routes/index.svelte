@@ -25,7 +25,7 @@ import { flip } from 'svelte/animate';
  
  let items = [... Pokemon];
  let currentPage = 1;
- let pageSize = 9;
+ let pageSize = 20;
  $: paginatedItems = paginate({ items, pageSize, currentPage })
 
 
@@ -85,23 +85,24 @@ import { flip } from 'svelte/animate';
 <!-- <div class="my-10 mx-20 "> -->
 
     <h1 class="text-center text-xl font-thin uppercase text-gray-700 text-shadow">Svelte kit pokedex</h1>
-    <div class="flex justify-center mt-2">
-        <input type="text" bind:value={searchTerm} class="w-1/2 flex justify-center text-shadow-place border p-2 shadow-2xl placeholder-shown:uppercase font-thin placeholder-gray-400  " placeholder="Search Pokemon" >
+    <div id="searchWrap" class="flex justify-center mt-2">
+        <input id="search" type="text" bind:value={searchTerm} class="w-1/2 flex justify-center text-shadow-place border p-2 shadow-2xl placeholder-shown:uppercase font-thin placeholder-gray-400  " placeholder="Search Pokemon" >
        
         <div class="flex gap-x-4 mx-3 ">
 
-          <button class="flex border shadow-2xl py-2 px-1 " on:click={Asc}>
+          <button id="Asc" class="flex border shadow-2xl py-2 px-1 " on:click={Asc}>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700 block " fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
             </svg>
           </button>
 
-          <button class="flex border shadow-2xl py-2 px-1" on:click={Des}>
+          <button id="Des" data-id="Des" class="flex border shadow-2xl py-2 px-1" on:click={Des}>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
             </svg>
+         
           </button>
-
+     
         </div>
 
     </div> 

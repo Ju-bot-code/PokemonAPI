@@ -1,9 +1,11 @@
 <nav class="w-full p-2  bg-gray-400 font-thin uppercase text-white  flex justify-center space-x-20">
     <a href="/" class="hover:text-gray-600 text-shadow">Home</a>
-    <a href="/todos" class="hover:text-gray-600 text-shadow">todo</a>
+    <!-- <a href="/todos" class="hover:text-gray-600 text-shadow">todo</a>
     <a href="/about" class="hover:text-gray-600 text-shadow">About Us</a>
     <a href="/api" class="hover:text-gray-600 text-shadow">API</a>
-    <a href="/date" class="hover:text-gray-600 text-shadow">Date</a>
+    <a href="/date" class="hover:text-gray-600 text-shadow">Date</a> -->
+    <a href="/files" class="hover:text-gray-600 text-shadow">uploads</a>
+    <a href="/drop" class="hover:text-gray-600 text-shadow">drop</a>
 
 </nav>
 <style>
